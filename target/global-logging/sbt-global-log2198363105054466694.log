@@ -1,0 +1,25 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAppTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mApplication[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should check doubling orders for sellers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mApplication[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should check doubling orders for buyers[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mApplication[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should calculate orders file with no agreements correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mApplication[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should calculate regular 10 rows of orders correctly *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "Client(C1,[100,HashMap(A -> 10, B -> 5, C -> 10, D -> 15]))" did not equal "Client(C1,[89,HashMap(A -> 10, B -> 5, C -> 12, D -> 12]))" (AppTest.scala:35)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  Analysis:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  "Client(C1,[100,HashMap(A -> 10, B -> 5, C -> 10, D -> 15]))" -> "Client(C1,[89,HashMap(A -> 10, B -> 5, C -> 12, D -> 12]))"[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 317 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 3, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	AppTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed 04.11.2024 15:46:12[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

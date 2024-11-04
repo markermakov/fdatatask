@@ -1,0 +1,10 @@
+C1	s	A	11	3
+C1	s	A	11	3
+C1	s	A	11	3
+C1	s	A	11	3
+C1	s	A	11	3
+C1	s	A	11	3
+C1	s	A	11	3
+C1	s	A	11	3
+C1	s	A	11	3
+C5	b	A	11	3
